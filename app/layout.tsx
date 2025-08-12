@@ -57,10 +57,6 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="bg-blue-600 py-2 px-3 text-center text-white text-sm font-medium">
-          <span className="inline-block">CA: </span>
-          <span className="inline-block break-all truncate max-w-full">EUwvqww7U1nsDAKQ748hooGSLCLgKuQMeVHS5VHjjZzZ</span>
-        </div>
         <WalletContextProvider>
           <Menu/>
           <div className="mx-auto max-w-[1400px]"> 

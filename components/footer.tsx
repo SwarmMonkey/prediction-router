@@ -17,10 +17,14 @@ const Footer = () => {
             <div className="flex items-start md:items-center">
               <div className="flex-grow">
                 <h1 className='md:text-4xl text-2xl font-semibold'>
-                  Predict. Trade. Win.
+                  Route to the best prediction markets.
                 </h1>
-                <p className='text-gray-600'>
-                  PredictionRouter is a prediction market aggregator. <br /> We help you predict the future using AI with advanced algorithms and up to date information.
+                <p className='text-gray-600 mt-2'>
+                  PredictionRouter aggregates prices, liquidity, and sentiment across top platforms like Kalshi and Polymarket.
+                  Compare markets side-by-side, track probabilities, and discover actionable opportunities — all in one place.
+                </p>
+                <p className='text-gray-600 mt-2'>
+                  We don’t custody funds or execute trades. We guide you to where to trade with clear context and up-to-date data.
                 </p>
               </div>
             </div>
@@ -62,6 +66,15 @@ const Footer = () => {
                     className='underline'
                   >
                     Telegram
+                  </a>
+                </li>
+                <li className='text-xl font-medium'>
+                  <a
+                    href='https://github.com/SwarmMonkey/prediction-router'
+                    target='_blank'
+                    className='underline'
+                  >
+                    GitHub
                   </a>
                 </li>
                 {/* <li className='text-xl font-medium'>
