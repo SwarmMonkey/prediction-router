@@ -139,10 +139,10 @@ function MinimalHero() {
                   viewport={{ once: false }}
                 >
                   <Image
-                    src="/prediction.png"
-                    alt="Prediction Market"
-                    width={500}
-                    height={350}
+                    src="/PredictionRouter_logo.png?v=2"
+                    alt="PredictionRouter"
+                    width={720}
+                    height={480}
                     className="transform-gpu rounded-md"
                     priority
                     style={{ 

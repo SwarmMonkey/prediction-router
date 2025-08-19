@@ -62,7 +62,7 @@ export default function AIChat({ marketData }: AIChatProps) {
 
       <div className="flex-1 overflow-y-auto border border-gray-300 rounded p-2 bg-gray-50 text-sm space-y-2">
         {conversation.map((msg, index) => (
-          <div key={index} className={msg.sender === 'user' ? 'text-blue-800' : 'text-gray-800'}>
+          <div key={index} className={msg.sender === 'user' ? 'text-green-800' : 'text-gray-800'}>
             <span className="font-semibold">{msg.sender === 'user' ? 'You:' : 'AI:'}</span> {msg.text}
           </div>
         ))}
@@ -81,7 +81,7 @@ export default function AIChat({ marketData }: AIChatProps) {
           
         />
         <button
-          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded disabled:opacity-50 disabled:cursor-not-allowed"
+          className="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded disabled:opacity-50 disabled:cursor-not-allowed"
           onClick={handleSendMessage}
           disabled={isThinking || !newMessage.trim()}
         >

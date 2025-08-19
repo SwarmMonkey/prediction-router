@@ -78,7 +78,7 @@ export default function SearchBar({ allEvents, onSearch }: SearchBarProps) {
             ref={inputRef}
             type="text"
             placeholder="Search Kalshi events"
-            className="h-14 w-full rounded-xl border border-gray-200 bg-white pl-12 pr-12 text-gray-800 placeholder-gray-500 shadow-sm transition-all focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-100"
+            className="h-14 w-full rounded-xl border border-gray-200 bg-white pl-12 pr-12 text-gray-800 placeholder-gray-500 shadow-sm transition-all focus:border-green-400 focus:outline-none focus:ring-2 focus:ring-green-100"
             onFocus={handleFocus}
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}

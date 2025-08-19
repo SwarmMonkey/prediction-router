@@ -75,7 +75,7 @@ export default function AnalyzeButton({ market, onAnalysisComplete, onAnalyzeSta
       <button 
         onClick={handleAnalyze}
         disabled={isLoading}
-        className="px-8 py-4 bg-blue-600 text-white rounded-lg text-xl font-semibold hover:bg-blue-700 disabled:bg-blue-300 shadow-lg transition-all duration-200 flex items-center justify-center min-w-[220px] hover:scale-105"
+        className="px-8 py-4 bg-green-600 text-white rounded-lg text-xl font-semibold hover:bg-green-700 disabled:bg-green-300 shadow-lg transition-all duration-200 flex items-center justify-center min-w-[220px] hover:scale-105"
       >
         {isLoading ? (
           <>

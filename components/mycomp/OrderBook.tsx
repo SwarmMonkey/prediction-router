@@ -52,7 +52,7 @@ export default function OrderBook({ orderBookDataMap, markets }: OrderBookProps)
       <div style={noHoverStyle}>
         <Card className="mt-6" style={noHoverStyle}>
           <CardHeader className="pb-2">
-            <CardTitle className="text-xl text-gradient bg-clip-text bg-gradient-to-r from-blue-600 to-blue-800 dark:from-blue-400 dark:to-blue-600">Market Order Book</CardTitle>
+            <CardTitle className="text-xl text-gradient bg-clip-text bg-gradient-to-r from-green-600 to-green-800 dark:from-green-400 dark:to-green-600">Market Order Book</CardTitle>
           </CardHeader>
           <CardContent>
             <div className="mb-4">
@@ -85,7 +85,7 @@ export default function OrderBook({ orderBookDataMap, markets }: OrderBookProps)
       <Card className="mt-6 mb-4" style={noHoverStyle}>
         <CardHeader className="pb-2">
           <CardTitle className="text-xl font-semibold">
-            <span className="text-gradient bg-clip-text bg-gradient-to-r from-blue-600 to-blue-800 dark:from-blue-400 dark:to-blue-600">
+            <span className="text-gradient bg-clip-text bg-gradient-to-r from-green-600 to-green-800 dark:from-green-400 dark:to-green-600">
               Order Book
             </span> 
             <span className="ml-2 font-normal text-base">for {currentMarketLabel}</span>

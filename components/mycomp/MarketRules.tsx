@@ -23,7 +23,7 @@ export default function MarketRules({ description }: MarketRulesProps) {
       </p>
       {description.length > descriptionLengthLimit && (
         <button
-          className="text-blue-500 hover:underline mt-2 flex items-center"
+          className="text-green-600 hover:underline mt-2 flex items-center"
           onClick={() => setShowFullDescription(!showFullDescription)}
         >
           {showFullDescription ? (

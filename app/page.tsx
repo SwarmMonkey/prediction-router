@@ -9,13 +9,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'PredictionRouter | Prediction Market Aggregator',
     description: 'Make informed decisions with PredictionRouter, a prediction market aggregator. Get real-time insights and analytics.',
-    images: [{ url: '/prediction.png', width: 1200, height: 630, alt: 'PredictionRouter' }],
+    images: [{ url: '/PredictionRouter_logo.png?v=2', width: 1200, height: 630, alt: 'PredictionRouter' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'PredictionRouter | Prediction Market Aggregator',
     description: 'Aggregate and analyze trends across Kalshi, Polymarket and more.',
-    images: ['/prediction.png'],
+    images: ['/PredictionRouter_logo.png?v=2'],
   },
 };
 

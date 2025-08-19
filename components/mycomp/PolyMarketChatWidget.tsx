@@ -18,7 +18,7 @@ export default function PolymarketChatWidget({ eventData }: PolymarketChatWidget
         {!isOpen && (
           <button
             onClick={() => setIsOpen(true)}
-            className="bg-blue-500 text-white p-3 rounded-full shadow-lg hover:bg-blue-700 transition"
+            className="bg-green-600 text-white p-3 rounded-full shadow-lg hover:bg-green-700 transition"
             aria-label="Open chat"
           >
             <Sparkles className="h-5 w-5" />
@@ -27,8 +27,8 @@ export default function PolymarketChatWidget({ eventData }: PolymarketChatWidget
       </div>
 
       {isOpen && (
-        <div className="fixed bottom-16 right-4 w-[360px] h-[520px] bg-white rounded-xl shadow-xl border border-gray-300 z-50 flex flex-col overflow-hidden">
-          <div className="flex items-center justify-between p-2 bg-purple-600 text-white rounded-t-xl">
+          <div className="fixed bottom-16 right-4 w-[360px] h-[520px] bg-white rounded-xl shadow-xl border border-gray-300 z-50 flex flex-col overflow-hidden">
+            <div className="flex items-center justify-between p-2 bg-green-600 text-white rounded-t-xl">
             <span className="font-semibold">AI Chat</span>
             <button
               onClick={() => setIsOpen(false)}

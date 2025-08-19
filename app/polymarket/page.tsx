@@ -10,13 +10,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Polymarket Events | PredictionRouter Analysis',
     description: 'Discover Polymarket prediction events with AI-powered analysis to help your forecasting decisions.',
-    images: [{ url: '/prediction.png', width: 1200, height: 630, alt: 'Polymarket Events' }],
+    images: [{ url: '/PredictionRouter_logo.png?v=2', width: 1200, height: 630, alt: 'Polymarket Events' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Polymarket Events | PredictionRouter',
     description: 'AI-analyzed Polymarket prediction events to improve your trading decisions.',
-    images: ['/prediction.png'],
+    images: ['/PredictionRouter_logo.png?v=2'],
   },
 };
 

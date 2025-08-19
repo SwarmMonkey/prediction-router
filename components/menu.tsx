@@ -14,6 +14,14 @@ export default function Menu() {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className="flex-shrink-0 flex items-center">
+              <Image
+                src="/PredictionRouter_logo.png?v=2"
+                alt="PredictionRouter"
+                width={64}
+                height={64}
+                className="rounded-md mr-3"
+                priority
+              />
               <span className="text-xl font-bold text-gray-800 dark:text-gray-100">PredictionRouter</span>
             </Link>
           </div>

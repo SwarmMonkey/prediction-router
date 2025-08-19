@@ -33,13 +33,13 @@ export async function generateMetadata({ params }: { params: ParamsType }): Prom
         openGraph: {
           title: `${title} | PredictionRouter Polymarket Analysis`,
           description: `AI-analyzed Polymarket prediction event: ${title}. Get order book data and market insights.`,
-          images: [{ url: '/prediction.png', width: 1200, height: 630, alt: `${title} Polymarket Analysis` }],
+          images: [{ url: '/PredictionRouter_logo.png?v=2', width: 1200, height: 630, alt: `${title} Polymarket Analysis` }],
         },
         twitter: {
           card: 'summary_large_image',
           title: `${title} | PredictionRouter`,
           description: `AI analysis for Polymarket prediction event: ${title}`,
-          images: ['/prediction.png'],
+          images: ['/PredictionRouter_logo.png?v=2'],
         },
       };
     }

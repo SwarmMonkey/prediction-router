@@ -56,7 +56,7 @@ export default function MarketAnalysisContainer({ market }: MarketAnalysisContai
               </p>
               {rulesToShow.length > rulesLengthLimit && (
                 <button
-                  className="text-blue-500 hover:underline mt-2 flex items-center"
+                  className="text-green-600 hover:underline mt-2 flex items-center"
                   onClick={() => setShowFullRules(!showFullRules)}
                 >
                   {showFullRules ? (
@@ -95,7 +95,7 @@ export default function MarketAnalysisContainer({ market }: MarketAnalysisContai
 
           {analysis && (
             <div className="bg-white rounded-md overflow-hidden p-5 border border-gray-200">
-              <h3 className="font-semibold text-lg mb-3 text-blue-600">Market Analysis</h3>
+              <h3 className="font-semibold text-lg mb-3 text-green-600">Market Analysis</h3>
               <div className="whitespace-pre-wrap text-gray-700 prose prose-sm">{analysis}</div>
             </div>
           )}

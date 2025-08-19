@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'How PredictionRouter Works | Market Aggregation',
     description: 'Discover how we aggregate prediction markets across platforms to give you the best insights for informed decision making.',
-    images: [{ url: '/prediction.png', width: 1200, height: 630, alt: 'PredictionRouter How It Works' }],
+    images: [{ url: '/PredictionRouter_logo.png?v=2', width: 1200, height: 630, alt: 'PredictionRouter How It Works' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'How PredictionRouter Works | Market Aggregation',
     description: 'Discover how we aggregate and analyze prediction markets to help you make better forecasting decisions.',
-    images: ['/prediction.png'],
+    images: ['/PredictionRouter_logo.png?v=2'],
   },
 };
 
@@ -66,7 +66,7 @@ export default function HowItWorks() {
         
         <ol className="space-y-6 mb-8">
           <li className="flex gap-4">
-            <div className="flex-shrink-0 flex items-center justify-center w-8 h-8 rounded-full bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-300 font-semibold">1</div>
+            <div className="flex-shrink-0 flex items-center justify-center w-8 h-8 rounded-full bg-green-100 dark:bg-green-900 text-green-700 dark:text-green-300 font-semibold">1</div>
             <div>
               <h4 className="font-medium">Scan Multiple Markets</h4>
               <p className="text-gray-700 dark:text-gray-300">Our system continuously monitors major prediction markets, tracking odds, volumes, and market movements.</p>
@@ -74,7 +74,7 @@ export default function HowItWorks() {
           </li>
           
           <li className="flex gap-4">
-            <div className="flex-shrink-0 flex items-center justify-center w-8 h-8 rounded-full bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-300 font-semibold">2</div>
+            <div className="flex-shrink-0 flex items-center justify-center w-8 h-8 rounded-full bg-green-100 dark:bg-green-900 text-green-700 dark:text-green-300 font-semibold">2</div>
             <div>
               <h4 className="font-medium">Apply AI Analysis</h4>
               <p className="text-gray-700 dark:text-gray-300">Our AI models analyze this data alongside relevant news, social media sentiment, and historical patterns.</p>
@@ -82,7 +82,7 @@ export default function HowItWorks() {
           </li>
           
           <li className="flex gap-4">
-            <div className="flex-shrink-0 flex items-center justify-center w-8 h-8 rounded-full bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-300 font-semibold">3</div>
+            <div className="flex-shrink-0 flex items-center justify-center w-8 h-8 rounded-full bg-green-100 dark:bg-green-900 text-green-700 dark:text-green-300 font-semibold">3</div>
             <div>
               <h4 className="font-medium">Generate Actionable Insights</h4>
               <p className="text-gray-700 dark:text-gray-300">We transform complex data into clear, actionable recommendations that help you make informed decisions.</p>
@@ -90,7 +90,7 @@ export default function HowItWorks() {
           </li>
           
           <li className="flex gap-4">
-            <div className="flex-shrink-0 flex items-center justify-center w-8 h-8 rounded-full bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-300 font-semibold">4</div>
+            <div className="flex-shrink-0 flex items-center justify-center w-8 h-8 rounded-full bg-green-100 dark:bg-green-900 text-green-700 dark:text-green-300 font-semibold">4</div>
             <div>
               <h4 className="font-medium">Guide You to the Right Platform</h4>
               <p className="text-gray-700 dark:text-gray-300">Based on your interests and our analysis, we direct you to the specific prediction market where you can place your bet.</p>
@@ -98,8 +98,8 @@ export default function HowItWorks() {
           </li>
         </ol>
         
-        <div className="bg-blue-50 dark:bg-blue-900/20 p-6 rounded-lg border border-blue-100 dark:border-blue-900 mt-8">
-          <h3 className="text-xl font-medium mb-3 text-blue-800 dark:text-blue-300">Important Note</h3>
+        <div className="bg-green-50 dark:bg-green-900/20 p-6 rounded-lg border border-green-100 dark:border-green-900 mt-8">
+          <h3 className="text-xl font-medium mb-3 text-green-800 dark:text-green-300">Important Note</h3>
           <p className="text-gray-700 dark:text-gray-300">
             We are not a prediction market exchange. We don&apos;t hold your funds or execute trades on your behalf. 
             We simply provide intelligence and guidance to help you win on established prediction market platforms.

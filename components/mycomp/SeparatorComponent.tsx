@@ -7,8 +7,8 @@ import { usePathname } from 'next/navigation';
 export default function SeparatorComponent() {
   const pathname = usePathname();
   const baseLinkClasses = "px-4 py-2 rounded-full text-sm font-medium transition-colors";
-  const activeLinkClasses = "bg-blue-600 text-white shadow";
-  const inactiveLinkClasses = "text-blue-600 dark:text-blue-500 hover:bg-blue-50 dark:hover:bg-blue-900/20";
+  const activeLinkClasses = "bg-green-600 text-white shadow";
+  const inactiveLinkClasses = "text-green-600 dark:text-green-500 hover:bg-green-50 dark:hover:bg-green-900/20";
 
   return (
     <div className="py-3">

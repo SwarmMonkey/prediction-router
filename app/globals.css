@@ -121,13 +121,13 @@
   }
 }
 
-/* Custom styles for Solana wallet button */
+/* Custom styles for Solana wallet button (green accents) */
 button.wallet-adapter-button {
-  background-color: #2563eb !important; /* bg-blue-600 */
+  background-color: #16a34a !important; /* bg-green-600 */
   color: white !important;
   transition: background-color 0.2s ease-in-out !important;
 }
 
 button.wallet-adapter-button:hover {
-  background-color: #1d4ed8 !important; /* bg-blue-700 */
+  background-color: #15803d !important; /* bg-green-700 */
 }

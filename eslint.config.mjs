@@ -10,6 +10,26 @@ const compat = new FlatCompat({
 });
 
 const eslintConfig = [
+  {
+    ignores: [
+      "node_modules/",
+      ".next/",
+      "out/",
+      "*.d.ts",
+      "*.log",
+      "coverage/",
+      ".nyc_output",
+      ".npm",
+      ".cache",
+      ".parcel-cache",
+      ".nuxt",
+      ".vuepress/dist",
+      ".serverless",
+      ".fusebox/",
+      ".dynamodb/",
+      ".tern-port"
+    ]
+  },
   ...compat.extends("next/core-web-vitals", "next/typescript"),
 ];
 

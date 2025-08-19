@@ -37,13 +37,13 @@ export async function generateMetadata({
         openGraph: {
           title: `${title} | PredictionRouter Market Analysis`,
           description,
-          images: [{ url: '/prediction.png', width: 1200, height: 630, alt: `${title} Market Analysis` }],
+          images: [{ url: '/PredictionRouter_logo.png?v=2', width: 1200, height: 630, alt: `${title} Market Analysis` }],
         },
         twitter: {
           card: 'summary_large_image',
           title: `${title} | PredictionRouter`,
           description,
-          images: ['/prediction.png'],
+          images: ['/PredictionRouter_logo.png?v=2'],
         },
       };
     }

@@ -14,43 +14,45 @@ const Footer = () => {
       >
         <div className='sm:container px-4 mx-auto'>
           <div className='md:flex justify-between w-full'>
-            <div className="flex items-start md:items-center">
+            <div className="flex items-start md:items-center gap-4">
+              <Image
+                src="/PredictionRouter_logo.png?v=2"
+                alt="PredictionRouter"
+                width={72}
+                height={72}
+                className="rounded-md"
+                priority
+              />
               <div className="flex-grow">
-                <h1 className='md:text-4xl text-2xl font-semibold'>
-                  Route to the best prediction markets.
+                <h1 className='md:text-3xl text-xl font-semibold'>
+                  Predict smarter.
                 </h1>
                 <p className='text-gray-600 mt-2'>
-                  PredictionRouter aggregates prices, liquidity, and sentiment across top platforms like Kalshi and Polymarket.
-                  Compare markets side-by-side, track probabilities, and discover actionable opportunities — all in one place.
-                </p>
-                <p className='text-gray-600 mt-2'>
-                  We don’t custody funds or execute trades. We guide you to where to trade with clear context and up-to-date data.
+                  Aggregated markets and AI insights — in one place.
                 </p>
               </div>
             </div>
             <div className='flex gap-10 mt-6 md:mt-0'>
               <ul>
-                <li className='text-2xl pb-2 text-black font-semibold'>
-                  NAVIGATION
+                 <li className='text-lg pb-2 text-black font-semibold'>
+                  Navigation
                 </li>
-                <li className='text-xl font-medium'>
+                <li className='text-base font-medium'>
                   <Link href='/'>Home</Link>
                 </li>
-                <li className='text-xl font-medium'>
+                <li className='text-base font-medium'>
                   <Link href='/how-it-works'>How it Works</Link>
                 </li>
-                <li className='text-xl font-medium'>
+                <li className='text-base font-medium'>
                   <Link href='/app'>Kalshi</Link>
                 </li>
-                <li className='text-xl font-medium'>
+                <li className='text-base font-medium'>
                   <Link href='/polymarket'>Polymarket</Link>
                 </li>
               </ul>
               <ul>
-                <li className='text-2xl pb-2 text-black font-semibold'>
-                  CONNECT
-                </li>
-                <li className='text-xl font-medium'>
+                <li className='text-lg pb-2 text-black font-semibold'>Connect</li>
+                <li className='text-base font-medium'>
                   <a
                     href='https://x.com'
                     target='_blank'
@@ -59,7 +61,7 @@ const Footer = () => {
                     X.com
                   </a>
                 </li>
-                <li className='text-xl font-medium'>
+                <li className='text-base font-medium'>
                   <a
                     href='https://t.me'
                     target='_blank'
@@ -68,7 +70,7 @@ const Footer = () => {
                     Telegram
                   </a>
                 </li>
-                <li className='text-xl font-medium'>
+                <li className='text-base font-medium'>
                   <a
                     href='https://github.com/SwarmMonkey/prediction-router'
                     target='_blank'
