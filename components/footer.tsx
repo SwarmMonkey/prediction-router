@@ -54,29 +54,11 @@ const Footer = () => {
                 <li className='text-lg pb-2 text-black font-semibold'>Connect</li>
                 <li className='text-base font-medium'>
                   <a
-                    href='https://x.com'
+                    href='https://x.com/PredictionRt'
                     target='_blank'
                     className='underline'
                   >
                     X.com
-                  </a>
-                </li>
-                <li className='text-base font-medium'>
-                  <a
-                    href='https://t.me'
-                    target='_blank'
-                    className='underline'
-                  >
-                    Telegram
-                  </a>
-                </li>
-                <li className='text-base font-medium'>
-                  <a
-                    href='https://github.com/SwarmMonkey/prediction-router'
-                    target='_blank'
-                    className='underline'
-                  >
-                    GitHub
                   </a>
                 </li>
                 {/* <li className='text-xl font-medium'>

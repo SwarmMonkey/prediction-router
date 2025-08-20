@@ -6,6 +6,7 @@ import WalletContextProvider from "../components/WalletContextProvider";
 import SeparatorComponent from "@/components/mycomp/SeparatorComponent";
 import Menu from "../components/menu";
 import Script from "next/script";
+import TopBanner from "@/components/mycomp/TopBanner";
 
 const GA_MEASUREMENT_ID = "G-0R9HDMJ0EP";
 
@@ -63,6 +64,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <WalletContextProvider>
+          <TopBanner />
           <div className="mx-auto max-w-[1400px]"> 
             <Menu />
             <SeparatorComponent />
