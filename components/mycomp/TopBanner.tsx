@@ -12,7 +12,7 @@ export default function TopBanner() {
       await navigator.clipboard.writeText(OFFICIAL_CA);
       setCopied(true);
       setTimeout(() => setCopied(false), 1500);
-    } catch (_) {
+    } catch {
       // no-op
     }
   };
